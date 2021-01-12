@@ -1,0 +1,318 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    
+} 
+
+                                                /* EJERCICIO 4 */
+/* #cuadrado{
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgray;
+}
+button{
+    width: 50px;
+    height: 50px;
+    outline: none;
+    margin: 10px;
+    cursor: pointer;
+}
+#lightpink{
+    background-color: lightpink;
+}
+#darkviolet{
+    background-color: darkviolet;
+}
+#lightskyblue{
+    background-color: lightskyblue;
+}
+#lightgreen{
+    background-color: lightgreen;
+}
+#lightgoldenrodyellow{
+    background-color: lightgoldenrodyellow;
+}
+#lightsalmon{
+    background-color: lightsalmon;
+} */
+
+                                                /* EJERCICIO 6 */
+/* .barra {
+    width: 600px;
+    height: 60px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 100px;
+    padding: 1px;
+    margin: 100px;
+} 
+.chica {
+    background-color: rgb(76, 175, 80);
+    border-radius: 100px;
+    height: 60px;
+    width: 0;
+}
+.botones{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+button{
+    width: 60px;
+    height: 60px;
+} */
+
+                                                /* EJERCICIO 7 */
+/* .titulo, 
+.parrafo{
+    text-align: center;
+    margin: 50px;
+}
+.botones{
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+}
+.boton{
+    margin: 20px;
+}  */
+
+/* ********************** MODO OSCURO ************************ */
+
+/* .oscuro{
+    background-color: black;
+    color: white;
+}
+.sun{
+    color: white;
+    background-color: darkgrey;
+} */
+
+                                                /* EJERCICIO 8 */
+
+/* #body{
+    height: 2000px;
+}  */
+
+                                                /* EJERCICIO 9 y 10 */
+/* .imagenes{
+    display: block;
+}
+.principal{
+    width: 400px;
+}
+.peque{
+    height: 100px;
+    width: 100px;
+}  */
+                                                /* EJERCICIO 11 */
+
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+}
+.titulo{
+    text-align: center;
+}
+#botones{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+#botones button{
+    width: 190px;
+    padding: 3px;
+    background-color: sandybrown;
+    color: rgb(94, 22, 22);
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(222, 3, 2, .5);
+    cursor: pointer;
+}
+#peliculas{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ci-fi, 
+#drama,
+#animadas{
+    width: 32%;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+}
+
+img{
+    margin: 0 8px;
+}
+figure{
+    margin: 0;
+}
+figcaption{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+} */
+
+                                                /* EJERCICIO 12 */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-align: center;
+    margin: 20px;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto{
+    width: 20%;
+    text-align: center;
+}
+
+.botones, .botones-2{
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    justify-content: center;
+    font-size: 25px;
+}
+.number{
+    width: 50px;
+    padding: 5px;
+}
+#reset, #borrar{
+    width: 120px;
+}
+
+button{
+    background-color: lightpink;
+    outline: none;
+    border: none;
+    padding: 1px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(222, 3, 2, .5);
+} */
+
+                                                /* EJERCICIO 13 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.titulo{
+    text-align: center;
+    height: 5vh;
+}
+.container{
+    display: flex;
+    height: 95vh;
+}
+.imagenes{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink;
+}
+.favoritos{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: burlywood;
+}
+figure{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 26vh;
+}
+/* figcaption{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+} */
+.none{
+    display: none;
+}
+
+                                                /* EJERCICIO 15 */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./img/13-dandelion.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 28%;
+    height: 25vh;
+    border-radius: 30px;
+    background-color: rgb(240, 241, 241);
+    box-shadow: 2px 2px 2px 1px rgba(222, 3, 2, .5);
+    margin: 100px auto;
+}
+p{
+    margin: 10px;
+}
+#mensaje{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(128, 5, 5);
+}
+#reiniciar{
+    width: 120px;
+    margin: 10px;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(222, 3, 2, .5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: lightsalmon;
+} */
